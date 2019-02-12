@@ -12,32 +12,31 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView"
         android:layout_alignParentStart="true"
         android:layout_marginStart="81dp"
-        android:text="TextView"
-        android:textSize="42sp"
-        tools:text="@string/txtPoor" />
+        android:text="@string/txtPoor"
+        android:textSize="42sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:contentDescription="image"
         app:srcCompat="@drawable/coal" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView"
         android:layout_alignParentStart="true"
         android:layout_marginStart="170dp"
-        android:text="TextView"
+        android:text="@string/txtnamePoor"
         android:textSize="42sp"
-        android:textStyle="bold"
-        tools:text="@string/txtnamePoor" />
+        android:textStyle="bold" />
 </RelativeLayout>
